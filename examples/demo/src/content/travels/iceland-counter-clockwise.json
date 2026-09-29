@@ -66,32 +66,219 @@
       "id": "t01",
       "type": "text",
       "stop": "rey",
+      "y": 0.3,
       "paras": [
         {
           "id": "t01p1",
-          "text": "从雷克雅未克出发，天一直亮着。"
+          "text": [
+            {
+              "t": "落地是晚上十一点，天还亮着。六月的冰岛没有夜，只有一段很长的黄昏，接着又是早晨。"
+            }
+          ]
+        },
+        {
+          "id": "t01p2",
+          "text": [
+            {
+              "t": "在超市买了一周的面包和咖啡，第一晚住在港口边上，窗帘很厚。"
+            }
+          ]
         }
       ]
     },
     {
+      "id": "s01",
+      "type": "single",
+      "stop": "rey",
+      "y": 0.15,
+      "scale": 0.92,
+      "src": "../../assets/iceland.jpg",
+      "alt": "",
+      "caption": "凌晨一点的海，天没有黑过。"
+    },
+    {
       "id": "t02",
       "type": "text",
-      "stop": "vik",
+      "stop": "rey",
+      "writing": "v",
+      "y": 0.2,
       "paras": [
         {
           "id": "t02p1",
-          "text": "黑沙滩上的风很大，站不稳。"
+          "text": [
+            {
+              "t": "逆时针走",
+              "marks": [
+                {
+                  "type": "note",
+                  "ref": "n1"
+                }
+              ]
+            },
+            {
+              "t": "，先向南。"
+            }
+          ]
+        },
+        {
+          "id": "t02p2",
+          "text": [
+            {
+              "t": "路边的羊不怕车。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p01",
+      "type": "pair",
+      "stop": "vik",
+      "y": 0.1,
+      "images": [
+        {
+          "src": "../../assets/dali.jpg",
+          "alt": "",
+          "caption": "黑沙滩。"
+        },
+        {
+          "src": "../../assets/desk.jpg",
+          "alt": "",
+          "caption": "远处的礁石。"
         }
       ]
     },
     {
       "id": "t03",
       "type": "text",
-      "stop": "hofn",
+      "stop": "vik",
       "paras": [
         {
           "id": "t03p1",
-          "text": "冰川的边缘是脏的，这一点和明信片不一样。"
+          "text": [
+            {
+              "t": "黑沙滩上的风很大，站不稳。浪推上来的时候，沙是湿的，像一整块黑色的绸。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st01",
+      "type": "strip",
+      "stop": "vik",
+      "images": [
+        {
+          "src": "../../assets/iceland.jpg",
+          "alt": "",
+          "caption": "南岸。",
+          "scale": 1
+        },
+        {
+          "src": "../../assets/dali.jpg",
+          "alt": "",
+          "scale": 0.8,
+          "offset": 0.12
+        },
+        {
+          "src": "../../assets/desk.jpg",
+          "alt": "",
+          "scale": 0.95,
+          "offset": -0.04
+        },
+        {
+          "src": "../../assets/iceland.jpg",
+          "alt": "",
+          "caption": "公路。",
+          "scale": 0.85,
+          "offset": 0.1
+        }
+      ]
+    },
+    {
+      "id": "g01",
+      "type": "grid",
+      "stop": "hofn",
+      "images": [
+        {
+          "src": "../../assets/dali.jpg",
+          "alt": ""
+        },
+        {
+          "src": "../../assets/iceland.jpg",
+          "alt": ""
+        },
+        {
+          "src": "../../assets/desk.jpg",
+          "alt": ""
+        },
+        {
+          "src": "../../assets/dali.jpg",
+          "alt": ""
+        },
+        {
+          "src": "../../assets/desk.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "type": "text",
+      "stop": "hofn",
+      "paras": [
+        {
+          "id": "t04p1",
+          "text": [
+            {
+              "t": "冰川的边缘是脏的，这一点和明信片不一样。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f01",
+      "type": "free",
+      "stop": "hofn",
+      "ar": 1.6,
+      "items": [
+        {
+          "kind": "image",
+          "src": "../../assets/iceland.jpg",
+          "alt": "",
+          "x": 0.04,
+          "y": 0.06,
+          "w": 0.56,
+          "z": 1
+        },
+        {
+          "kind": "image",
+          "src": "../../assets/dali.jpg",
+          "alt": "",
+          "x": 0.52,
+          "y": 0.34,
+          "w": 0.34,
+          "z": 2
+        },
+        {
+          "kind": "image",
+          "src": "../../assets/desk.jpg",
+          "alt": "",
+          "x": 0.14,
+          "y": 0.62,
+          "w": 0.28,
+          "z": 3
+        },
+        {
+          "kind": "text",
+          "text": [
+            {
+              "t": "夜里十一点，天还是亮的。"
+            }
+          ],
+          "x": 0.92,
+          "y": 0.08
         }
       ]
     },
@@ -124,5 +311,10 @@
         "value": "一号公路环岛，二千一百四十公里"
       }
     ]
+  },
+  "notes": {
+    "n1": {
+      "text": "逆时针是租车公司的人建议的，他说把最好的留到最后。"
+    }
   }
 }
