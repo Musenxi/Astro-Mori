@@ -4,6 +4,8 @@ export default defineMoriConfig({
   title: 'MORI',
   description: '一本安静的个人刊物：文章、游记、照片。',
   accent: '#002fa7',
+  // 评论：自建评论服务（packages/comments）。本地开发：pnpm comments，默认监听 8787
+  comments: { provider: 'mori', endpoint: 'http://127.0.0.1:8787' },
   categories: [
     { id: 'journeys', zh: '游记', en: 'Journeys', empty: '没写游记' },
     { id: 'essays', zh: '随笔', en: 'Essays', empty: '没写随笔' },
