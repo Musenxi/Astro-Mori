@@ -1,0 +1,128 @@
+{
+  "title": "冰岛，逆时针",
+  "subtitle": "Iceland, counter-clockwise",
+  "date": "2025-06-30",
+  "category": "journeys",
+  "excerpt": "沿一号公路绕岛一圈。十天，两千一百四十公里。",
+  "cover": "../../assets/iceland.jpg",
+  "coverAlt": "冰岛一号公路上的山",
+  "facts": [
+    {
+      "label": "路线",
+      "value": "一号公路环岛"
+    },
+    {
+      "label": "日期",
+      "value": "2025.06.20 – 06.30"
+    },
+    {
+      "label": "里程",
+      "value": "2,140 公里"
+    }
+  ],
+  "stops": [
+    {
+      "id": "rey",
+      "name": "雷克雅未克",
+      "en": "Reykjavík",
+      "lnglat": [
+        -21.94,
+        64.15
+      ],
+      "date": "06.20"
+    },
+    {
+      "id": "vik",
+      "name": "维克",
+      "en": "Vík",
+      "lnglat": [
+        -19.01,
+        63.42
+      ],
+      "date": "06.22"
+    },
+    {
+      "id": "hofn",
+      "name": "霍恩",
+      "en": "Höfn",
+      "lnglat": [
+        -15.21,
+        64.25
+      ],
+      "date": "06.24"
+    }
+  ],
+  "reading": {
+    "default": "v",
+    "allowed": [
+      "v",
+      "h",
+      "mix"
+    ],
+    "direction": "ltr"
+  },
+  "blocks": [
+    {
+      "id": "t01",
+      "type": "text",
+      "stop": "rey",
+      "paras": [
+        {
+          "id": "t01p1",
+          "text": "从雷克雅未克出发，天一直亮着。"
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "type": "text",
+      "stop": "vik",
+      "paras": [
+        {
+          "id": "t02p1",
+          "text": "黑沙滩上的风很大，站不稳。"
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "type": "text",
+      "stop": "hofn",
+      "paras": [
+        {
+          "id": "t03p1",
+          "text": "冰川的边缘是脏的，这一点和明信片不一样。"
+        }
+      ]
+    },
+    {
+      "id": "m01",
+      "type": "map",
+      "stop": "rey",
+      "scope": "route"
+    }
+  ],
+  "pin": {
+    "order": 0,
+    "quote": [
+      "六月的冰岛没有夜，",
+      "只有一段很长的黄昏，",
+      "接着又是早晨。"
+    ],
+    "caption": "冰岛 · 2025.06 · 一号公路",
+    "meta": [
+      {
+        "label": "日期",
+        "value": "二〇二五年六月"
+      },
+      {
+        "label": "篇幅",
+        "value": "约三千二百字 · 图二十五"
+      },
+      {
+        "label": "路线",
+        "value": "一号公路环岛，二千一百四十公里"
+      }
+    ]
+  }
+}

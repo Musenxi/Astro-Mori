@@ -1,0 +1,102 @@
+{
+  "title": "坐慢车去大理",
+  "subtitle": "The slow train to Dali",
+  "date": "2025-02-11",
+  "category": "journeys",
+  "excerpt": "绿皮车，二十一个小时，对面坐着一位修表师傅。",
+  "cover": "../../assets/dali.jpg",
+  "coverAlt": "山间的水",
+  "facts": [
+    {
+      "label": "路线",
+      "value": "昆明至大理"
+    },
+    {
+      "label": "用时",
+      "value": "二十一小时"
+    }
+  ],
+  "stops": [
+    {
+      "id": "km",
+      "name": "昆明",
+      "en": "Kunming",
+      "lnglat": [
+        102.83,
+        25.04
+      ],
+      "date": "02.08"
+    },
+    {
+      "id": "dl",
+      "name": "大理",
+      "en": "Dali",
+      "lnglat": [
+        100.27,
+        25.61
+      ],
+      "date": "02.09"
+    }
+  ],
+  "reading": {
+    "default": "v",
+    "allowed": [
+      "v",
+      "h",
+      "mix"
+    ],
+    "direction": "ltr"
+  },
+  "blocks": [
+    {
+      "id": "t01",
+      "type": "text",
+      "stop": "km",
+      "paras": [
+        {
+          "id": "t01p1",
+          "text": "绿皮车，二十一个小时。"
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "type": "text",
+      "stop": "dl",
+      "paras": [
+        {
+          "id": "t02p1",
+          "text": "对面坐着一位修表师傅，一路没说几句话。"
+        }
+      ]
+    },
+    {
+      "id": "m01",
+      "type": "map",
+      "stop": "km",
+      "scope": "route"
+    }
+  ],
+  "pin": {
+    "order": 2,
+    "quote": [
+      "绿皮车，二十一个小时，",
+      "对面坐着一位修表师傅。"
+    ],
+    "caption": "大理 · 2025.02 · 昆明至大理",
+    "meta": [
+      {
+        "label": "日期",
+        "value": "二〇二五年二月"
+      },
+      {
+        "label": "篇幅",
+        "value": "约两千四百字 · 图十六"
+      },
+      {
+        "label": "路线",
+        "value": "昆明至大理，二十一小时"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "把博客从 Hexo 搬到 Astro",
+  "subtitle": "Moving from Hexo to Astro",
+  "date": "2025-05-02",
+  "category": "tech",
+  "excerpt": "迁移花了三个周末，其中两个在修链接。",
+  "cover": "../../assets/desk.jpg",
+  "coverAlt": "暖灰色的远山",
+  "pin": {
+    "order": 1,
+    "quote": [
+      "迁移花了三个周末，",
+      "其中两个在修链接。"
+    ],
+    "caption": "技术 · 2025.05 · 迁移记录",
+    "meta": [
+      {
+        "label": "日期",
+        "value": "二〇二五年五月"
+      },
+      {
+        "label": "篇幅",
+        "value": "约两千字"
+      },
+      {
+        "label": "用时",
+        "value": "三个周末"
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "b01",
+      "type": "p",
+      "text": "Hexo 用了六年，主题停更了，插件一个个装不上。搬家的理由很普通，过程也很普通。"
+    },
+    {
+      "id": "b02",
+      "type": "h",
+      "level": 2,
+      "text": "链接"
+    },
+    {
+      "id": "b03",
+      "type": "p",
+      "text": "旧文章的地址是 /2019/03/12/xxx/，新的是 /posts/xxx/。两个周末花在这里：把每个旧地址做成跳转，再把文章里互相引用的链接一个个改对。"
+    },
+    {
+      "id": "b04",
+      "type": "code",
+      "lang": "txt",
+      "code": "/2019/03/12/hello/  →  /posts/hello/"
+    }
+  ]
+}

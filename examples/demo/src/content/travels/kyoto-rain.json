@@ -1,0 +1,55 @@
+{
+  "title": "京都下了三天雨",
+  "subtitle": "Three days of rain in Kyoto",
+  "date": "2024-11-03",
+  "category": "journeys",
+  "excerpt": "原定的寺都没去成，倒是把几家咖啡店坐遍了。",
+  "cover": "../../assets/dali.jpg",
+  "coverAlt": "雨天的山",
+  "facts": [
+    {
+      "label": "日期",
+      "value": "2024.11.01 – 11.03"
+    }
+  ],
+  "stops": [
+    {
+      "id": "kyo",
+      "name": "京都",
+      "en": "Kyoto",
+      "lnglat": [
+        135.77,
+        35.01
+      ],
+      "date": "11.01"
+    }
+  ],
+  "reading": {
+    "default": "v",
+    "allowed": [
+      "v",
+      "h",
+      "mix"
+    ],
+    "direction": "ltr"
+  },
+  "blocks": [
+    {
+      "id": "t01",
+      "type": "text",
+      "stop": "kyo",
+      "paras": [
+        {
+          "id": "t01p1",
+          "text": "原定的寺都没去成，倒是把几家咖啡店坐遍了。"
+        }
+      ]
+    },
+    {
+      "id": "m01",
+      "type": "map",
+      "stop": "kyo",
+      "scope": "route"
+    }
+  ]
+}
