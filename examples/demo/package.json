@@ -6,14 +6,15 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "check": "astro check"
+    "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^7.3.5",
     "astro-mori": "workspace:*"
   },
   "devDependencies": {
-    "sharp": "^0.35.5"
+    "@astrojs/check": "^0.9.10",
+    "sharp": "^0.35.5",
+    "typescript": "^6.0.3"
   }
 }
