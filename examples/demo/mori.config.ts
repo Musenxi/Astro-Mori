@@ -14,6 +14,7 @@ export default defineMoriConfig({
     { id: 'tech', zh: '技术', en: 'Technology', empty: '没写技术文章' },
   ],
   home: {
+    style: 'quote',
     direction: 'h',
     editorNote: '这一期没有主题。几篇文章写于不同的季节，放在一起，只是因为它们都写完了。',
   },
